@@ -1,0 +1,1223 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"funThoughts"
+			],
+			[
+				"s",
+				"start"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"nei",
+				"neighbours"
+			],
+			[
+				"par",
+				"● parseInt(str)"
+			],
+			[
+				"bo",
+				"bookmark"
+			],
+			[
+				"book",
+				"bookmarkId"
+			],
+			[
+				"re",
+				"resetCreateForm"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"t",
+				"textField_week1"
+			],
+			[
+				"textField_w",
+				"textField_week6"
+			],
+			[
+				"textField_week",
+				"textField_week5"
+			],
+			[
+				"ticket",
+				"ticketTaking"
+			],
+			[
+				"tic",
+				"ticketTaking"
+			],
+			[
+				"ser",
+				"serverId"
+			],
+			[
+				"Ser",
+				"Servs"
+			],
+			[
+				"cust",
+				"customers"
+			],
+			[
+				"ca",
+				"calledCust"
+			],
+			[
+				"Cust",
+				"Customer"
+			],
+			[
+				"ba",
+				"bakeryEvent"
+			],
+			[
+				"ti",
+				"ticketNum"
+			],
+			[
+				"Ba",
+				"BakeryEvent"
+			],
+			[
+				"night",
+				"nightInt"
+			],
+			[
+				"inter",
+				"interval"
+			],
+			[
+				"nig",
+				"night"
+			],
+			[
+				"Bak",
+				"BakeryParam"
+			],
+			[
+				"f",
+				"for	For Loop"
+			],
+			[
+				"for",
+				"forv	Vector For Loop"
+			],
+			[
+				"Bu",
+				"BufferSem"
+			],
+			[
+				"maxi",
+				"maximum"
+			],
+			[
+				"sum",
+				"sumreturn"
+			],
+			[
+				"line",
+				"lines"
+			],
+			[
+				"cou",
+				"countFile"
+			],
+			[
+				"rste",
+				"rstep2count"
+			],
+			[
+				"rs",
+				"rstep2count"
+			],
+			[
+				"mi",
+				"miniholine"
+			],
+			[
+				"ho",
+				"horizontal_line"
+			],
+			[
+				"rst",
+				"rstadd"
+			],
+			[
+				"r",
+				"rstep3"
+			],
+			[
+				"end",
+				"endloop"
+			],
+			[
+				"n",
+				"nloop"
+			],
+			[
+				"ini",
+				"initialloop"
+			],
+			[
+				"st",
+				"store"
+			],
+			[
+				"hgy",
+				"hgy_decode"
+			],
+			[
+				"get",
+				"getWord64be"
+			],
+			[
+				"step",
+				"stepthree"
+			],
+			[
+				"temp",
+				"tempx"
+			],
+			[
+				"var",
+				"varx2"
+			],
+			[
+				"lzw",
+				"lzw_cipher"
+			],
+			[
+				"lz",
+				"lzw_decompress"
+			],
+			[
+				"lea",
+				"least_frequent_tree_list"
+			],
+			[
+				"make",
+				"make_tree"
+			],
+			[
+				"fin",
+				"find_least_frequent_tree"
+			],
+			[
+				"from",
+				"from_Pos_to_Nat"
+			],
+			[
+				"huf",
+				"huff_cipher"
+			],
+			[
+				"ge",
+				"get_hgy_list"
+			],
+			[
+				"sort",
+				"sorted_fTree"
+			],
+			[
+				"HGY",
+				"HGY_Value"
+			],
+			[
+				"look",
+				"lookup_value"
+			],
+			[
+				"upda",
+				"updated_cipher"
+			],
+			[
+				"ins",
+				"insert_prefix"
+			],
+			[
+				"in",
+				"insert_prefix"
+			],
+			[
+				"fro",
+				"from_Int_to_Nat"
+			],
+			[
+				"mo",
+				"modified_safe_Index"
+			],
+			[
+				"fT",
+				"fTree"
+			],
+			[
+				"e",
+				"encoded"
+			],
+			[
+				"h",
+				"huffman_encode"
+			],
+			[
+				"cr",
+				"create_bit_sequence"
+			],
+			[
+				"em",
+				"empty_histogram"
+			],
+			[
+				"m",
+				"merge_least_frequent"
+			],
+			[
+				"tr",
+				"trees_to_huffman_tree"
+			],
+			[
+				"merge",
+				"merge_trees"
+			],
+			[
+				"merg",
+				"merge_least_frequent"
+			],
+			[
+				"asc",
+				"ascii_order"
+			],
+			[
+				"fol",
+				"follow_bit_path_to_one_value"
+			],
+			[
+				"Empt",
+				"Empty_Tree"
+			],
+			[
+				"Em",
+				"Empty_Tree"
+			],
+			[
+				"fTr",
+				"fTree"
+			],
+			[
+				"fo",
+				"follow_bit_path_to_one_value"
+			],
+			[
+				"ft",
+				"fTree_right"
+			],
+			[
+				"fTree_",
+				"fTree_left"
+			],
+			[
+				"fr",
+				"frequency"
+			],
+			[
+				"emp",
+				"Empty_Tree"
+			],
+			[
+				"me",
+				"merge_trees"
+			],
+			[
+				"fold",
+				"fold_left"
+			],
+			[
+				"days",
+				"days_since_1_January_0"
+			],
+			[
+				"da",
+				"days_since_1_January_0"
+			],
+			[
+				"l",
+				"leap_years_since_1_January_0"
+			],
+			[
+				"mont",
+				"month_length"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"mer",
+				"merge"
+			],
+			[
+				"cha",
+				"chars"
+			],
+			[
+				"Pla",
+				"Placed_Elements"
+			],
+			[
+				"S",
+				"Sparse_Line"
+			],
+			[
+				"wor",
+				"world_copy"
+			],
+			[
+				"O",
+				"Ordered_Lists_2D"
+			],
+			[
+				"M",
+				"MAX_NUM_ARGS"
+			],
+			[
+				"u",
+				"user_input"
+			],
+			[
+				"MAX",
+				"MAXARGS"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"fi",
+				"file_handler"
+			],
+			[
+				"total",
+				"total_count"
+			],
+			[
+				"c",
+				"childPID"
+			],
+			[
+				"world",
+				"world"
+			],
+			[
+				"transi",
+				"transition_cell"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/resumeBuilder.js",
+			"settings":
+			{
+				"buffer_size": 2290,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/jQuery.js",
+			"settings":
+			{
+				"buffer_size": 261746,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"s s matla",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"",
+				"Bookmarks: Clear All"
+			],
+			[
+				"sspyt",
+				"Set Syntax: Python"
+			],
+			[
+				"ssjav",
+				"Set Syntax: Java"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"s s python",
+				"Set Syntax: Python"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"sshtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"lint ",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"ssc++",
+				"Set Syntax: C++"
+			],
+			[
+				"ssj",
+				"Set Syntax: Java"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"coff",
+				"Coffee: Toggle Watch Mode"
+			],
+			[
+				"coffee",
+				"Coffee: Toggle Watch Mode"
+			],
+			[
+				"coffe",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"ssco",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"ssh",
+				"Set Syntax: Haskell"
+			],
+			[
+				"mark",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"delete",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"coment",
+				"Toggle Comment"
+			],
+			[
+				"ssm",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"ssxml",
+				"Set Syntax: XML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Unless"
+			],
+			[
+				"instal	",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 570.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"hi",
+			"ls",
+			"selSort(L)",
+			"L = [4,7,5,2,6,3,1,9]",
+			"dict([1]+[2])",
+			"dict(1+2)",
+			"True or False",
+			"for i in range(10):(print i)",
+			"for i in range(10){print i}",
+			"for i in range(10) print i",
+			"for i in range(10): print i",
+			"1+1",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Hosuke/Developer/Github/frontend-nanodegree-resume",
+		"/Users/Hosuke/Developer/Github/frontend-nanodegree-resume/images",
+		"/Users/Hosuke/Developer/Github/frontend-nanodegree-resume/js"
+	],
+	"file_history":
+	[
+		"/Users/Hosuke/Developer/Udacity/Git/version-control/ownrepo/.git/COMMIT_EDITMSG",
+		"/Users/Hosuke/Developer/Udacity/Git/version-control/ownrepo/hello.py",
+		"/Users/Hosuke/Developer/Udacity/Git/version-control/ownrepo/hello.js",
+		"/Users/Hosuke/Downloads/bash_profile_course (1)",
+		"/Users/Hosuke/Developer/website/Heartist/NginX/conf.d/default.conf",
+		"/Users/Hosuke/Developer/HTML5/starfield/stars.html",
+		"/Users/Hosuke/Developer/HTML5/stars.html",
+		"/Users/Hosuke/Developer/HTML5/starfield/main.css",
+		"/Users/Hosuke/Developer/HTML5/starfield/index.html",
+		"/Users/Hosuke/Developer/Udacity/Intro to HTML and CSS/Lesson 1/portfolio/toplist/index.html",
+		"/Users/Hosuke/Developer/Github/homeworks/README.md",
+		"/Volumes/Untitled 4/ipod/Notes/新建 文本文档.txt",
+		"/Users/Hosuke/Documents/Computer Science/Python/code/dict_matrix.py",
+		"/Users/Hosuke/Documents/Computer Science/Python/code/single_source_shortest_path.py",
+		"/Users/Hosuke/Documents/Computer Science/Python/code/binary_search_tree.py",
+		"/Users/Hosuke/Documents/Computer Science/Python/code/greedy_algorithms.py",
+		"/Users/Hosuke/Developer/Java/接口.java",
+		"/Users/Hosuke/Downloads/Õº∆¨∑≈¥Û3/index.html",
+		"/Users/Hosuke/Developer/dWorks/002/test.py",
+		"/Users/Hosuke/Developer/dWorks/002/unit_test.py",
+		"/Users/Hosuke/Developer/dWorks/002/assign2.py",
+		"/Users/Hosuke/Developer/Github/RobitaChat/index.html",
+		"/Users/Hosuke/Developer/Github/Tic-Tac-Toe/index.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/scopevs$scope.html",
+		"/Users/Hosuke/Developer/Github/Tic-Tac-Toe/buttons/config.rb",
+		"/Users/Hosuke/Developer/Github/Tic-Tac-Toe/css.css",
+		"/Users/Hosuke/Developer/dWorks/002/test_graph_1.txt",
+		"/Users/Hosuke/Developer/dWorks/001/Final/JavaAssignment01/Assignment.java",
+		"/Users/Hosuke/Documents/ANU/COMP2310/ASS01/Bakery/Server.java",
+		"/Users/Hosuke/Documents/ANU/COMP2310/ASS01/Bakery/Customer.java",
+		"/Users/Hosuke/Documents/ANU/COMP2310/ASS01/Bakery/ServMonitor.java",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/ScopeMethod.html",
+		"/Users/Hosuke/Developer/JavaScript/UIUC/Tic-Tac-Toe/mp3.js",
+		"/Users/Hosuke/Developer/JavaScript/UIUC/Tic-Tac-Toe/tictactoe.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/003/Organization00.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/CtrlasSyntax.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/AACtrls.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/DircCommunication.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/TransclutionBasics.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/Dirc2Dirc.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/Dirc2Ctrl.html",
+		"/Users/Hosuke/Developer/JavaScript/OtherProjects/“建行杯”厦门第三届十佳物业服务企业评选20强争夺赛.html",
+		"/Users/Hosuke/Developer/JavaScript/OtherProjects/“建行杯”厦门第三届十佳物业服务企业评选20强争夺赛_files/mobile_form-64387dc71787b977ee34a1509b8351a6.js",
+		"/Users/Hosuke/Developer/JavaScript/OtherProjects/“建行杯”厦门第三届十佳物业服务企业评选20强争夺赛_files/analytics.js",
+		"/Users/Hosuke/Library/Application Support/Sublime Text 3/Packages/User/CoffeeCompile.sublime-settings",
+		"/Users/Hosuke/Library/Application Support/Sublime Text 3/Packages/CoffeeComplete Plus (Autocompletion)/README.md",
+		"/Users/Hosuke/Developer/JavaScript/UIUC/lab4 (1)/lab4.coffee",
+		"/Users/Hosuke/Developer/JavaScript/CoffeeScript/test.coffee",
+		"/Users/Hosuke/Developer/Github/填填圈/js_v8/share.js",
+		"/Users/Hosuke/Developer/JavaScript/Tools/templates-css-flat-ui-pro/Flat-UI-HTML-Personal-License-1/Flat UI HTML - Personal License/HTML/UI/index.html",
+		"/Users/Hosuke/Developer/JavaScript/Tools/compiler-latest/README.md",
+		"/Users/Hosuke/Developer/JavaScript/UIUC/lab4 (1)/lab4.js",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/scopeReview.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/scope@.html",
+		"/Users/Hosuke/Downloads/AntiChinaVideoAds_with_player0920.xpi",
+		"/Users/Hosuke/Developer/Github/hosuke.github.io/index.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/002/app/eggly-app.start.js",
+		"/Users/Hosuke/Developer/Github/AngularPractice/002/index.html",
+		"/Users/Hosuke/Downloads/《商战之电商风云》 第一集 电商江湖[高清版]/diy00328718566.command",
+		"/Users/Hosuke/Downloads/《商战之电商风云》 第一集 电商江湖[高清版]/mp4_join.py",
+		"/Users/Hosuke/Downloads/amber-torch-1305-Bookmark-export.json",
+		"/Users/Hosuke/Developer/JavaScript/Angular/egghead-angularjs-from-scratch-getting-started-master/index.complete.html",
+		"/Volumes/Untitled/Trickster/cgx600p/提示下载完请在24小时内删除.txt",
+		"/Users/Hosuke/Developer/JavaScript/Angular/egghead-angularjs-from-scratch-getting-started-master/index.start.html",
+		"/Users/Hosuke/Developer/JavaScript/Angular/egghead-angularjs-from-scratch-getting-started-master/data/bookmarks.json",
+		"/Users/Hosuke/Developer/JavaScript/Angular/egghead-angularjs-from-scratch-getting-started-master/README.md",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/scope=.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/scope&.html",
+		"/Users/Hosuke/Documents/66HEX/MissionPlanner-master/ExtLibs/ZedGraph/License-LGPL.txt",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/Behavior.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/FirstDirective.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/Built-inFilters.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/Search.html",
+		"/Users/Hosuke/Developer/JavaScript/BootStrap/bootstrap-3.2.0-dist/css/bootstrap-theme.css",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/Filter.html",
+		"/Users/Hosuke/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Hosuke/Developer/JavaScript/OtherGame/Drowning in Problems_files/drowninginproblems.dart.js",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/ShareData.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/FirstCtrl.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/foundation.html",
+		"/Users/Hosuke/Developer/Github/AngularPractice/001/template.html",
+		"/Users/Hosuke/Library/Application Support/Sublime Text 3/Packages/CoffeeCompile/CoffeeCompile.sublime-settings",
+		"/Users/Hosuke/Developer/JavaScript/Angular/AngularFire/tutorial.html",
+		"/Users/Hosuke/Developer/JavaScript/Angular/AngularFire/example.css",
+		"/Users/Hosuke/Developer/Github/66hex/index.html",
+		"/Users/Hosuke/Documents/66HEX/website/3DR 与Intel 合作开发最新无人机芯片， 共同创造未来无人机的长尾效应！_files/appmsg20701f.js",
+		"/Users/Hosuke/Documents/66HEX/website/sample.html",
+		"/Users/Hosuke/Developer/JavaScript/BrowserQuest/BrowserQuest-prod/client/README.md",
+		"/Users/Hosuke/Developer/JavaScript/BrowserQuest/BrowserQuest-prod/README.md",
+		"/Users/Hosuke/.ssh/known_hosts",
+		"/Users/Hosuke/Developer/JavaScript/Tools/templates-css-flat-ui-pro/Flat-UI-HTML-Personal-License-1/Flat UI HTML - Personal License/Useful Links! (How To).txt",
+		"/Users/Hosuke/Developer/JavaScript/Node/practice/prac03/index.html",
+		"/Users/Hosuke/Developer/JavaScript/Node/practice/prac03/package.json",
+		"/Users/Hosuke/Developer/JavaScript/Node/practice/prac03/app.js",
+		"/Users/Hosuke/Developer/JavaScript/Node/practice/prac02/quote.ejs",
+		"/Users/Hosuke/Developer/JavaScript/Node/practice/prac02/layout.ejs",
+		"/Users/Hosuke/Developer/JavaScript/Node/practice/prac02/app.js",
+		"/Users/Hosuke/Developer/JavaScript/Node/practice/package.json",
+		"/Users/Hosuke/Developer/JavaScript/Node/practice/app.js",
+		"/Users/Hosuke/Downloads/data.json",
+		"/Users/Hosuke/Developer/JavaScript/Tools/impress.js-master/index.html",
+		"/Users/Hosuke/Developer/website/Wanmen/Sept12/ 主页banner/pngmod.sh",
+		"/Users/Hosuke/Developer/dWorks/001/Final/JavaAssignment02/JavaAssignment.java",
+		"/Users/Hosuke/Developer/dWorks/001/Final/JavaAssignment02/ReadText.java",
+		"/Users/Hosuke/Developer/dWorks/001/JavaAssignment/src/JavaAssignment.java",
+		"/Users/Hosuke/Developer/dWorks/001/Stars/Stars/src/star4.java",
+		"/Users/Hosuke/Developer/dWorks/001/Java Assignment/chart.txt",
+		"/Users/Hosuke/Developer/dWorks/001/Stars/Stars/src/ReadText.java",
+		"/Users/Hosuke/Developer/dWorks/001/Java Assignment/src/Assignment.java",
+		"/Users/Hosuke/Developer/dWorks/001/JavaAssignment.java",
+		"/Users/Hosuke/Developer/dWorks/001/code.java",
+		"/Users/Hosuke/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/2B0CF72E-DFDC-4D80-95F8-ADC3312B9391/code.txt",
+		"/Users/Hosuke/Developer/JavaScript/Justdex/pokedex.json",
+		"/Users/Hosuke/Developer/website/Wanmen/Sept9/course/pngmod.sh",
+		"/Volumes/NO NAME/JetBrain.txt",
+		"/Users/Hosuke/Downloads/jpegoptim-1.4.1 2/README",
+		"/Users/Hosuke/Developer/JavaScript/MEAN/meanstack-data-samples-express4/app/scripts/app.js",
+		"/Users/Hosuke/Developer/JavaScript/MEAN/meanstack-data-samples-express4/app/models/component.js",
+		"/Users/Hosuke/Developer/JavaScript/MEAN/meanstack-data-samples-express4/app.js",
+		"/Users/Hosuke/Developer/JavaScript/MEAN/meanstack-data-samples-express4/routes/index.js",
+		"/Users/Hosuke/Developer/JavaScript/MEAN/meanstack-data-samples-express4/config/environments/test.js",
+		"/Users/Hosuke/Developer/JavaScript/dice/teal 3d dice roller.html",
+		"/Users/Hosuke/Documents/ANU/COMP2310/ASS01/submission/ReadMe.txt",
+		"/Users/Hosuke/Documents/ANU/COMP2310/ASS01/test.lts",
+		"/Users/Hosuke/Downloads/Bakery.lts",
+		"/Users/Hosuke/Developer/Haskell/assignment/ass02/Assignment 2 student template updated/Sources/Codec/Huffman.hs",
+		"/Users/Hosuke/Developer/Haskell/assignment/ass01/Sources/Transitions/For_Ordered_Lists_2D.hs",
+		"/Users/Hosuke/Developer/ANU/COMP1130/week11/Binary_Tree_Test_Generator.hs"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Name",
+			"$(\"header\").append();\n$(\"#main\").append(\"Hosuke\");\nvar awesomeThought = \"I am Hosuke and I am AWESOME!\";",
+			"div",
+			"2",
+			"Syste",
+			"jLabel_ConstellationValue",
+			"getJScrollPane_Names",
+			"drawingPanel",
+			"interval",
+			"circles",
+			"textField",
+			"Cust",
+			"randSleep",
+			"calling",
+			"ticketAvaliable",
+			"Fork",
+			"C",
+			"time",
+			"\"",
+			"CUST",
+			"list",
+			"firstLetter",
+			"upload",
+			"Upload",
+			"upload",
+			"Upload",
+			"upload",
+			"Upload",
+			"upload",
+			"Upload",
+			"upload",
+			"Upload",
+			"upload",
+			"Upload",
+			"startUpload",
+			"192.168.1.8",
+			"ivy.path",
+			"y",
+			"booleanLabel",
+			"imageIcon",
+			"isImage",
+			"SwingContext",
+			"summary.html",
+			"overview",
+			"overview-summary",
+			"overview-summary.html",
+			"Html_file",
+			"Html",
+			"lst",
+			"IVY_HOME",
+			"sub ZERO",
+			"sub ZERO ONE",
+			"varx",
+			"vary",
+			"temx",
+			"R1",
+			"R0",
+			"R6",
+			"varx",
+			"lineloop",
+			"R5",
+			"R8",
+			"R7",
+			"R0",
+			"varx",
+			"frequen",
+			"x",
+			"varx",
+			"hgy_decode_lzw",
+			"hgy_encode_lzw",
+			"hgy_encode",
+			"hgy_decode",
+			"hgy_encode",
+			"HGY",
+			"Value",
+			"value",
+			"Value",
+			"huffman",
+			"BWT_Value",
+			"EOL",
+			"hgy_filter",
+			"huffman",
+			"test_huffman",
+			"az_tree",
+			"new_lookup_value",
+			"lookup_value",
+			"insert_prefix",
+			"updated_cipher",
+			"new_state",
+			"huffman",
+			"test_huffman",
+			"ascii_order",
+			"[])]\n",
+			"',\n",
+			"                       ",
+			"  ",
+			"sort_trees [ Leaf 1 'T', Leaf 1 'q', Leaf 1 'i', Leaf 1 'c', Leaf 1 'k', Leaf 1 'b',\n                       Leaf 1 'w', Leaf 1 'n', Leaf 1 'f', Leaf 1 'x', Leaf 1 'j', Leaf 1 'm',\n                       Leaf 1 'p', Leaf 1 'v', Leaf 1 't', Leaf 1 'l', Leaf 1 'a', Leaf 1 'z',\n                       Leaf 1 'y', Leaf 1 'g', Leaf 1 '.', Leaf 2 'h', Leaf 2 'u', Leaf 2 'r',\n                       Leaf 2 'd', Leaf 4 'e', Leaf 4 'o', Leaf 8 ' ']",
+			"switch",
+			"getColor",
+			"fileName",
+			"edgeList2",
+			"edgeList1",
+			"edgeList2",
+			"file",
+			"nodeList",
+			"shank",
+			"a",
+			"rem",
+			"year `mod` 4 == 0",
+			"rue",
+			"left",
+			"i",
+			"my-ghost-blog.com",
+			"my-ghost-blog.com/",
+			"http://my-ghost-blog.com/",
+			"side",
+			"h2",
+			"key",
+			"# 6.00.2x Problem Set 4\n\nimport numpy\nimport random\nimport pylab\nfrom ps3b import *\n\n#\n# PROBLEM 1\n#\ndef simulationDelayedTreatment(numTrials):\n    \"\"\"\nRuns simulations and make histograms for problem 1.\n\nRuns numTrials simulations to show the relationship between delayed\ntreatment and patient outcome using a histogram.\n\nHistograms of final total virus populations are displayed for delays of 300,\n150, 75, 0 timesteps (followed by an additional 150 timesteps of\nsimulation).\n\nnumTrials: number of simulation runs to execute (an integer)\n\"\"\"\n\n    # TODO\n    result = {150:[]}\n    for key in result:\n        print \"key = \", key\n        for i in range(numTrials):\n            numViruses = 100\n            # numViruses = 10\n            maxPop = 1000\n            maxBirthProb = 0.1\n            clearProb = 0.05\n            resistances = {'guttagonol': True}\n            mutProb = 0.005\n            viruses = [];\n            for i in range(numViruses):\n                virus = ResistantVirus(maxBirthProb, clearProb, resistances, mutProb);\n                viruses.append(virus);\n\n            patient = TreatedPatient(viruses, maxPop);\n            trial = []\n            for step in range(key):\n                virus_population_after_update = patient.update()\n                trial.append(virus_population_after_update)\n            # result[key].append(trial)\n\n            patient.addPrescription('guttagonol')\n            # for step in range(150):\n            for step in range(150):\n                virus_population_after_update = patient.update()\n                trial.append(virus_population_after_update)\n            result[key].append(trial)\n\n    ## mean for [[1,2,3], [2,3,4], [3,4,5]] = [2,3,4]\n    # for key in result:\n    # data = numpy.array (result[key])\n    # # print numpy.average(data,0) #0 - by coloms, inside row\n    # result[key] = list(numpy.average(data,0))\n    # print result\n\n    for i,key in enumerate(result):\n        data = numpy.array (result[key])\n        array_final_steps = data.take(-1,1) # 1 - by rows, inside column\n        # print \"array_final_steps\", array_final_steps\n        pylab.subplot(4,1,i)\n        pylab.title(str(key))\n        pylab.hist(array_final_steps,bins=20)\n    pylab.show()\n\n#simulationDelayedTreatment(100)\n\n\n#\n# PROBLEM 2\n#\ndef simulationTwoDrugsDelayedTreatment(numTrials):\n    \"\"\"\nRuns simulations and make histograms for problem 2.\n\nRuns numTrials simulations to show the relationship between administration\nof multiple drugs and patient outcome.\n\nHistograms of final total virus populations are displayed for lag times of\n300, 150, 75, 0 timesteps between adding drugs (followed by an additional\n150 timesteps of simulation).\n\nnumTrials: number of simulation runs to execute (an integer)\n\"\"\"\n    # TODO\n\n    result = {300:[], 150:[], 75:[], 0:[]}\n    # result = {3:[], 2:[], 1:[], 0:[]}\n    for key in result:\n        print \"key = \", key\n        for i in range(numTrials):\n            numViruses = 100\n            # numViruses = 10\n            maxPop = 1000\n            maxBirthProb = 0.1\n            clearProb = 0.05\n            resistances = {'guttagonol': False, 'grimpex': False}\n            mutProb = 0.005\n            viruses = [];\n            for i in range(numViruses):\n                virus = ResistantVirus(maxBirthProb, clearProb, resistances, mutProb);\n                viruses.append(virus);\n\n            patient = TreatedPatient(viruses, maxPop);\n            trial = []\n\n            for step in range(150):\n                virus_population_after_update = patient.update()\n                trial.append(virus_population_after_update)\n\n            patient.addPrescription('guttagonol')\n            for step in range(key):\n                virus_population_after_update = patient.update()\n                trial.append(virus_population_after_update)\n            # result[key].append(trial)\n\n            patient.addPrescription('grimpex')\n            # for step in range(150):\n            for step in range(150):\n                virus_population_after_update = patient.update()\n                trial.append(virus_population_after_update)\n            result[key].append(trial)\n\n    ## mean for [[1,2,3], [2,3,4], [3,4,5]] = [2,3,4]\n    # for key in result:\n    # data = numpy.array (result[key])\n    # # print numpy.average(data,0) #0 - by coloms, inside row\n    # result[key] = list(numpy.average(data,0))\n    # print result\n\n    for i,key in enumerate(result):\n        data = numpy.array (result[key])\n        array_final_steps = data.take(-1,1) # 1 - by rows, inside column\n        # print \"array_final_steps\", array_final_steps\n        pylab.subplot(4,1,i)\n        pylab.title(str(key))\n        pylab.hist(array_final_steps,bins=20)\n    pylab.show()\n\n#simulationTwoDrugsDelayedTreatment(100)",
+			"key",
+			"temp_list_viruses",
+			"new",
+			"line",
+			"local_lines",
+			"combine",
+			"MAX_user_input_SIZE",
+			"input",
+			"blocking_wait"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Ticket",
+			"isColorModelScale",
+			"fName",
+			"edges",
+			"fName",
+			"nodes",
+			"temp_viruses_list",
+			"count",
+			"MAX_INPUT_SIZE",
+			"user_input",
+			"block",
+			"command_count",
+			"Num"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/resumeBuilder.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1736,
+								1736
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 736.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/jQuery.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 261746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 310.0
+	},
+	"output.exec":
+	{
+		"height": 258.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "frontend-resume.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Developer/JavaScript/CoffeeScript/test.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
