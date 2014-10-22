@@ -1,17 +1,3 @@
-$("header").append();
-$("#main").append("Hosuke");
-var awesomeThought = "I am Hosuke and I am AWESOME!";
-console.log(awesomeThought);
-var funThoughts = awesomeThought.replace("AWESOME","FUN");
-$("#main").append(funThoughts);
-
-var name = "Huang Geyang";
-var role = "Front-End Developer";
-var formattedName = HTMLheaderName.replace("%data%",name);
-var formattedRole = HTMLheaderRole.replace("%data%",role);
-$("#header").prepend(formattedRole);
-$("#header").prepend(formattedName);
-
 var bio = {
     "name" : "Huang Geyang",
     "role" : "Front-End Developer",
@@ -23,14 +9,29 @@ var bio = {
         "location":"Canberra"
     },
     "pictureURL" : "images/fry.jpg",
-    "welcome" : "天空被未来浸染",
+    "welcomeMessage" : "天空被未来浸染",
     "skills" : ["AngularJS", "HTML" ,"CSS", "JavaScript"]
 };
 
-var work = {};
-work.position = "Time Traveler";
-work.employer = "Nobody";
-work.years = 21;
+var work = {
+    "jobs" : [
+        {
+            "employer" : "66HEX",
+            "title" : "Co-Founder",
+            "location" : "Xiamen",
+            "dates" : 2013,
+            "description" : "UAV solution provider"
+        },
+        {
+            "employer" : "Myself",
+            "title" : "Indie Game Developer",
+            "location" : "Canberra",
+            "dates" : 2014,
+            "description" : "Make indie HTML 5 games"
+        }
+    ]
+};
+
 
 var education = {
     "schools" : [
@@ -55,23 +56,48 @@ var education = {
             "name":"Introduction to Artificial Intelligence (Advanced Track)",
             "school":"Udacity",
             "dates":2011,
-            "url":""
+            "url":"https://www.udacity.com"
         },
-        "edX 6.00.1x",
-        "edX 6.00.2x"
+        {
+            "title" : "edX 6.00.1x",
+            "school" : "edX",
+            "dates" : 2014,
+            "url" : "https://www.edx.com"
+        },
+        {
+            "title" : "edX 6.00.2x",
+            "school" : "edX",
+            "dates" : 2014,
+            "url" : "https://www.edx.com"
+        }
     ]
 };
-education["name"] = "Australian National University";
-education["years"] = "2013 - ";
-education["city"] = "Canberra, ACT, Australia";
+
+
+var projects = {
+    "projects" : [
+        {
+            "title" : "Poke2048",
+            "dates" : "2014",
+            "desciption" : "Pokefied version of 2048",
+            "images" : "URLhere"
+        },
+        {
+            "title" : "Not IE",
+            "dates" : "2014",
+            "desciption" : "Do not tap on IE",
+            "images" : "URLhere"
+        }
+    ]
+};
 
 
 
 
-var formattedName = HTMLheaderName.replace("%data%",bio.name);
-var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
-var formattedContact = HTMLheaderName.replace("%data%",);
-var formattedName = HTMLheaderName.replace("%data%",);
-var formattedName = HTMLheaderName.replace("%data%",);
-var formattedName = HTMLheaderName.replace("%data%",);
+// var formattedName = HTMLheaderName.replace("%data%",bio.name);
+// var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
+// var formattedContact = HTMLheaderName.replace("%data%",);
+// var formattedName = HTMLheaderName.replace("%data%",);
+// var formattedName = HTMLheaderName.replace("%data%",);
+// var formattedName = HTMLheaderName.replace("%data%",);
 
