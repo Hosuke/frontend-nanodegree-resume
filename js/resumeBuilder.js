@@ -79,19 +79,39 @@ var projects = {
         {
             "title" : "Poke2048",
             "dates" : "2014",
-            "desciption" : "Pokefied version of 2048",
+            "description" : "Pokefied version of 2048",
             "images" : "URLhere"
         },
         {
             "title" : "Not IE",
             "dates" : "2014",
-            "desciption" : "Do not tap on IE",
+            "description" : "Do not tap on IE",
             "images" : "URLhere"
         }
     ]
 };
 
+if (bio.skills.length > 0) {
+    $('#header').append(HTMLskillsStart);
+    bio.skills.forEach( function(skill) {
+        var formattedSkill = HTMLskills.replace("%data%", skill);
+        console.log(formattedSkill);
+        $('#skills').append(formattedSkill);
+    });
+}
 
+work.jobs.forEach(function(job){
+    console.log(job);
+    $("#workExperience").append(HTMLworkStart);
+    var formattedEmployer = HTMLworkEmployer.replace("%data%",job.employer);
+    var formattedTitle = HTMLworkTitle.replace("%data%", job.title);
+    var formattedDates = HTMLworkDates.replace("%data%", job.dates);
+    var formattedDescription = HTMLworkDescription.replace("%data%", job.description);
+    var formattedEmployerTitle = formattedEmployer + formattedTitle;
+    $(".work-entry:last").append(formattedEmployerTitle);
+    $(".work-entry:last").append(formattedDates);
+    $(".work-entry:last").append(formattedDescription);
+});
 
 
 // var formattedName = HTMLheaderName.replace("%data%",bio.name);
