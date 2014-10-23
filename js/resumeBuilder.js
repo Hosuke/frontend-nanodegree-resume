@@ -80,25 +80,49 @@ var projects = {
             "title" : "Poke2048",
             "dates" : "2014",
             "description" : "Pokefied version of 2048",
-            "images" : ["../images/197x148.gif"]
+            "images" : ["images/197x148.gif"]
         },
         {
             "title" : "Not IE",
             "dates" : "2014",
             "description" : "Do not tap on IE",
-            "images" : ["../images/197x148.gif"]
+            "images" : ["images/197x148.gif"]
         }
     ]
 };
 
-if (bio.skills.length > 0) {
-    $('#header').append(HTMLskillsStart);
-    bio.skills.forEach( function(skill) {
-        var formattedSkill = HTMLskills.replace("%data%", skill);
-        console.log(formattedSkill);
-        $('#skills').append(formattedSkill);
-    });
-}
+bio.display = function() {
+    var formattedName = HTMLheaderName.replace("%data%",bio.name);
+    var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
+    $("#header").append(formattedName);
+    $("#header").append(formattedRole);
+
+    var formattedMobile = HTMLmobile.replace("%data%",bio.mobile);
+    var formattedEmail = HTMLemail.replace("%data%",bio.email);
+    var formattedGithub = HTMLgithub.replace("%data%",bio.github);
+    var formattedLocation = HTMLlocation.replace("%data%",bio.location);
+    $("#header").append(formattedMobile);
+    $("#header").append(formattedEmail);
+    $("#header").append(formattedGithub);
+    $("#header").append(formattedLocation);
+
+    var formattedBioPic = HTMLbioPic.replace("%data%",bio.pictureURL);
+    var formattedWelcomeMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
+    $("#header").append(formattedBioPic);
+    $("#header").append(formattedWelcomeMsg);
+
+    if (bio.skills.length > 0) {
+        $('#header').append(HTMLskillsStart);
+        bio.skills.forEach(function (skill) {
+            var formattedSkill = HTMLskills.replace("%data%", skill);
+            console.log(formattedSkill);
+            $('#skills').append(formattedSkill);
+        });
+    }
+};
+
+bio.display();
+
 work.display = function() {
     work.jobs.forEach(function (job) {
         console.log(job);
@@ -148,6 +172,7 @@ projects.display = function() {
 
 projects.display();
 
+initializeMap();
 $("#mapDiv").append(googleMap);
 
 // var formattedName = HTMLheaderName.replace("%data%",bio.name);
