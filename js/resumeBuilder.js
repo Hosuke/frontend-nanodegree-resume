@@ -172,7 +172,7 @@ projects.display = function() {
 
 projects.display();
 
-initializeMap();
+//initializeMap();
 $("#mapDiv").append(googleMap);
 
 // var formattedName = HTMLheaderName.replace("%data%",bio.name);
