@@ -173,6 +173,7 @@ function initializeMap() {
     // hmmmm, I wonder what this is about...
     google.maps.event.addListener(marker, 'click', function() {
       // your code goes here!
+      infoWindow.open(map, marker);
     });
 
     // this is where the pin actually gets added to the map.
@@ -210,7 +211,7 @@ function initializeMap() {
       // the search request object
       var request = {
         query: locations[place]
-      }
+      };
 
       // Actually searches the Google Maps API for location data and runs the callback
       // function with the search results after each search.

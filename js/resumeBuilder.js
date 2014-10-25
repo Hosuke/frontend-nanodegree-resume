@@ -16,17 +16,21 @@ var bio = {
 bio.display = function() {
     var formattedName = HTMLheaderName.replace("%data%",bio.name);
     var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
-    $("#header").append(formattedName);
-    $("#header").append(formattedRole);
+    $("#header").prepend(formattedRole);
+    $("#header").prepend(formattedName);
 
-    var formattedMobile = HTMLmobile.replace("%data%",bio.mobile);
-    var formattedEmail = HTMLemail.replace("%data%",bio.email);
-    var formattedGithub = HTMLgithub.replace("%data%",bio.github);
-    var formattedLocation = HTMLlocation.replace("%data%",bio.location);
-    $("#header").append(formattedMobile);
-    $("#header").append(formattedEmail);
-    $("#header").append(formattedGithub);
-    $("#header").append(formattedLocation);
+    var formattedMobile = HTMLmobile.replace("%data%",bio.contacts.mobile);
+    var formattedEmail = HTMLemail.replace("%data%",bio.contacts.email);
+    var formattedGithub = HTMLgithub.replace("%data%",bio.contacts.github);
+    var formattedLocation = HTMLlocation.replace("%data%",bio.contacts.location);
+    $("#topContacts").append(formattedMobile);
+    $("#topContacts").append(formattedEmail);
+    $("#topContacts").append(formattedGithub);
+    $("#topContacts").append(formattedLocation);
+    $("#footerContacts").append(formattedMobile);
+    $("#footerContacts").append(formattedEmail);
+    $("#footerContacts").append(formattedGithub);
+    $("#footerContacts").append(formattedLocation);
 
     var formattedBioPic = HTMLbioPic.replace("%data%",bio.pictureURL);
     var formattedWelcomeMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
@@ -37,7 +41,6 @@ bio.display = function() {
         $('#header').append(HTMLskillsStart);
         bio.skills.forEach(function (skill) {
             var formattedSkill = HTMLskills.replace("%data%", skill);
-            console.log(formattedSkill);
             $('#skills').append(formattedSkill);
         });
     }
@@ -64,7 +67,6 @@ var work = {
 
 work.display = function() {
     work.jobs.forEach(function (job) {
-        console.log(job);
         $("#workExperience").append(HTMLworkStart);
         var formattedEmployer = HTMLworkEmployer.replace("%data%", job.employer);
         var formattedTitle = HTMLworkTitle.replace("%data%", job.title);
