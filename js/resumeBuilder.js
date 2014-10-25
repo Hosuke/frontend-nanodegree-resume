@@ -13,84 +13,6 @@ var bio = {
     "skills" : ["AngularJS", "HTML" ,"CSS", "JavaScript"]
 };
 
-var work = {
-    "jobs" : [
-        {
-            "employer" : "66HEX",
-            "title" : "Co-Founder",
-            "location" : "Xiamen",
-            "dates" : 2013,
-            "description" : "UAV solution provider"
-        },
-        {
-            "employer" : "Myself",
-            "title" : "Indie Game Developer",
-            "location" : "Canberra",
-            "dates" : 2014,
-            "description" : "Make indie HTML 5 games"
-        }
-    ]
-};
-
-
-var education = {
-    "schools" : [
-        {
-            "name" : "Australian National University",
-            "location" : "Canberra, ACT, Australia",
-            "degree" : "Bachelor of Advanced Computing",
-            "majors" : "Computational Foundation",
-            "dates" : 2013,
-            "url" : "http://www.anu.edu.au/"
-        },
-        {
-            "name" : "Anglo Chinese Junior College",
-            "location" : "Singapore",
-            "degree" : "A - level",
-            "dates" : 2011,
-            "url" : "http://www.acjc.edu.sg/"
-        }
-    ],
-    "onlineCourse": [
-        {
-            "name":"Introduction to Artificial Intelligence (Advanced Track)",
-            "school":"Udacity",
-            "dates":2011,
-            "url":"https://www.udacity.com"
-        },
-        {
-            "title" : "edX 6.00.1x",
-            "school" : "edX",
-            "dates" : 2014,
-            "url" : "https://www.edx.com"
-        },
-        {
-            "title" : "edX 6.00.2x",
-            "school" : "edX",
-            "dates" : 2014,
-            "url" : "https://www.edx.com"
-        }
-    ]
-};
-
-
-var projects = {
-    "projects" : [
-        {
-            "title" : "Poke2048",
-            "dates" : "2014",
-            "description" : "Pokefied version of 2048",
-            "images" : ["images/197x148.gif"]
-        },
-        {
-            "title" : "Not IE",
-            "dates" : "2014",
-            "description" : "Do not tap on IE",
-            "images" : ["images/197x148.gif"]
-        }
-    ]
-};
-
 bio.display = function() {
     var formattedName = HTMLheaderName.replace("%data%",bio.name);
     var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
@@ -121,7 +43,24 @@ bio.display = function() {
     }
 };
 
-bio.display();
+var work = {
+    "jobs" : [
+        {
+            "employer" : "66HEX",
+            "title" : "Co-Founder",
+            "location" : "Xiamen",
+            "dates" : 2013,
+            "description" : "UAV solution provider"
+        },
+        {
+            "employer" : "Myself",
+            "title" : "Indie Game Developer",
+            "location" : "Canberra",
+            "dates" : 2014,
+            "description" : "Make indie HTML 5 games"
+        }
+    ]
+};
 
 work.display = function() {
     work.jobs.forEach(function (job) {
@@ -138,19 +77,97 @@ work.display = function() {
     });
 };
 
-work.display();
 
-function inName(name) {
-    name = name.trim().split(" ");
-    console.log(name);
-    // My last name is HUANG
-    name[0] = name[0].toUpperCase();
-    // My first name is Geyang
-    name[1] = name[1].slice(0,1).toUpperCase() + name[1].slice(1).toLocaleLowerCase();
-    return name[0] + " " + name[1];
-}
+var education = {
+    "schools" : [
+        {
+            "name" : "Australian National University",
+            "location" : "Canberra, ACT, Australia",
+            "degree" : "Bachelor of Advanced Computing",
+            "majors" : ["Computational Foundation"],
+            "dates" : 2013,
+            "url" : "http://www.anu.edu.au/"
+        },
+        {
+            "name" : "Anglo Chinese Junior College",
+            "location" : "Singapore",
+            "majors" : ["Science"],
+            "degree" : "A - level",
+            "dates" : 2011,
+            "url" : "http://www.acjc.edu.sg/"
+        }
+    ],
+    "onlineCourses": [
+        {
+            "name":"Introduction to Artificial Intelligence (Advanced Track)",
+            "school":"Udacity",
+            "dates":2011,
+            "url":"https://www.udacity.com"
+        },
+        {
+            "title" : "edX 6.00.1x",
+            "school" : "edX",
+            "dates" : 2014,
+            "url" : "https://www.edx.com"
+        },
+        {
+            "title" : "edX 6.00.2x",
+            "school" : "edX",
+            "dates" : 2014,
+            "url" : "https://www.edx.com"
+        }
+    ]
+};
 
-$('#main').append(internationalizeButton);
+education.display = function(){
+    education.schools.forEach(function(school) {
+        $("#education").append(HTMLschoolStart);
+        var formattedSchoolName = HTMLschoolName.replace("%data%", school.name);
+        var formattedSchoolDates = HTMLschoolDates.replace("%data%", school.dates);
+        var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", school.location);
+        var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", school.degree);
+        $(".education-entry:last").append(formattedSchoolName);
+        $(".education-entry:last a").append(formattedSchoolDegree);
+        school.majors.forEach(function(major) {
+            var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", major);
+            $(".education-entry:last").append(formattedSchoolMajor);
+        });
+        $(".education-entry:last").append(formattedSchoolDates);
+        $(".education-entry:last").append(formattedSchoolLocation);
+    });
+
+    if (education.onlineCourses.length > 0) {
+        $("#education").append(HTMLonlineClasses);
+        education.onlineCourses.forEach(function (course) {
+            var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", course.title);
+            var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", course.school);
+            var formattedOnlineDates = HTMLonlineDates.replace("%data%", course.dates);
+            var formattedOnlineURL = HTMLonlineURL.replace("%data%", course.url);
+            $(".online-class-entry:last").append(formattedOnlineSchool);
+            $(".online-class-entry:last").append(formattedOnlineTitle);
+            $(".online-class-entry:last").append(formattedOnlineDates);
+            $(".online-class-entry:last").append(formattedOnlineURL);
+        });
+    }
+};
+
+
+var projects = {
+    "projects" : [
+        {
+            "title" : "Poke2048",
+            "dates" : "2014",
+            "description" : "Pokefied version of 2048",
+            "images" : ["images/197x148.gif"]
+        },
+        {
+            "title" : "Not IE",
+            "dates" : "2014",
+            "description" : "Do not tap on IE",
+            "images" : ["images/197x148.gif"]
+        }
+    ]
+};
 
 projects.display = function() {
     projects.projects.forEach(function(project){
@@ -170,15 +187,22 @@ projects.display = function() {
     })
 };
 
+bio.display();
+work.display();
+education.display();
 projects.display();
+
+function inName(name) {
+    name = name.trim().split(" ");
+    console.log(name);
+    // My last name is HUANG
+    name[0] = name[0].toUpperCase();
+    // My first name is Geyang
+    name[1] = name[1].slice(0,1).toUpperCase() + name[1].slice(1).toLocaleLowerCase();
+    return name[0] + " " + name[1];
+}
+
+$('#main').append(internationalizeButton);
 
 //initializeMap();
 $("#mapDiv").append(googleMap);
-
-// var formattedName = HTMLheaderName.replace("%data%",bio.name);
-// var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
-// var formattedContact = HTMLheaderName.replace("%data%",);
-// var formattedName = HTMLheaderName.replace("%data%",);
-// var formattedName = HTMLheaderName.replace("%data%",);
-// var formattedName = HTMLheaderName.replace("%data%",);
-
