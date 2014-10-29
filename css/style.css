@@ -12,7 +12,7 @@
 }
 
 
-h1 {
+#main h1 {
 
   font-size: 40px;
   color: #F5A623;
@@ -20,23 +20,21 @@ h1 {
   display: inline;
 }
 
-h2 {
-  font-style: bold;
+#main h2 {
   font-size: 24px;
   color: #999999;
   line-height: 29px;
   padding: 10px;
 }
 
-h3 {
+#main h3 {
   font-style: italic;
   font-size: 20px;
   color: #000000;
   line-height: 22px;
 }
 
-h4 {
-  font-style: bold;
+#main h4 {
   font-size: 14px;
   color: #4A4A4A;
   line-height: 17px;
@@ -118,7 +116,7 @@ a {
   background-color: #4A4A4A;
 }
 
-/* TODO: Replace with image later */
+ /*TODO: Replace with image later*/
 #header {
   background-color: #484848;
 }
@@ -132,11 +130,11 @@ a {
   padding: 10px;
 }
 
-.center-content {
+#header .center-content {
   padding: 5%;
 }
 
-ul {
+#main ul {
   list-style-type: none;
 }
 
@@ -153,7 +151,7 @@ img {
 }
 
 
-/* Bar chart stuff */
+ /*Bar chart stuff*/
 .chart div {
   font: 10px sans-serif;
   background-color: #4A4A4A;
@@ -165,7 +163,7 @@ img {
   display: inline-block;
 }
 
-span {
+#main span {
   padding: 5px;
 }
 

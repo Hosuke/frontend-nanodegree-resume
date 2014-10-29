@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
 <!--
 This is an HTML document. It contains information about how elements in the website
 are arranged. In other words, it describes the layout of a website.
@@ -15,8 +14,16 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 <scripts> for JavaScript files to build interactions.
 -->
 <head>
-  <!-- Latest compiled and minified CSS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest bootstrap compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- Custom Fonts -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+  <!-- agency theme CSS -->
+  <link href="css/agency.css" rel="stylesheet">
+  <!-- own css -->
   <link href="css/style.css" rel="stylesheet" type="text/css">
 
   <!--
@@ -43,9 +50,50 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 -->
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
 
-<meta name="viewport" content="width=device-width">
 </head>
-<body unresolved>
+<body id="page-top" unresolved>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#header">Header</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#workExperience">Work</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#projects">Project</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#education">Education</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#mapDiv">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
   <div id="main">
 
     <!--
@@ -54,38 +102,60 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     resume below. You can pretty easily figure out what each section will
     display by looking at the id or at what's written between the <h2> tags.
 -->
-<div id="header" class="center-content">
-  <ul id="topContacts" class='flex-box'></ul>
-</div>
-<div style='clear: both;'></div>
-<div id="workExperience" class='gray'>
-  <h2>Work Experience</h2>
-</div>
-<div id="projects">
-  <h2>Projects</h2>
-</div>
-<div id="education" class='gray'>
-  <h2>Education</h2>
-</div>
-<div id="skillsChart">
-  <h2>Skills Chart</h2>
-</div>
-<div id="mapDiv">
-  <h2>Where I've Lived and Worked</h2>
-</div>
-<div id="letsConnect" class='dark-gray'>
-  <h2 class='orange center-text'>Let's Connect</h2>
-  <ul id="footerContacts" class="flex-box">
-  </ul>
-</div>
-</div>
+
+    <header>
+      <div id="header" class="center-content">
+        <ul id="topContacts" class='flex-box'></ul>
+      </div>
+    </header>
+
+    <div style='clear: both;'></div>
+
+    <section id="workExperience" class='gray'>
+      <h2>Work Experience</h2>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+    </section>
+
+    <section id="education" class='gray'>
+      <h2>Education</h2>
+    </section>
+
+    <section id="skillsChart">
+      <h2>Skills Chart</h2>
+    </section>
+
+    <section id="mapDiv">
+      <h2>Where I've Lived and Worked</h2>
+    </section>
+
+    <footer id="letsConnect" class='dark-gray'>
+      <h2 class='orange center-text'>Let's Connect</h2>
+      <ul id="footerContacts" class="flex-box">
+      </ul>
+    </footer>
+
+  </div>
+
+  <!-- Latest bootstrap compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/cbpAnimatedHeader.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="js/agency.js"></script>
 
   <!--
   The next line tells the browser where to download the JavaScript file you'll be
   writing. In resumeBuilder.js, you'll be writing code that builds the resume
   dynamically when this website, index.html, is opened.
--->
-<script src="js/resumeBuilder.js"></script>
+  -->
+  <script src="js/resumeBuilder.js"></script>
 
 
   <!--
