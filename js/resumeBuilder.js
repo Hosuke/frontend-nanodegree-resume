@@ -8,7 +8,7 @@ var bio = {
         "twitter":"@huanggeyang",
         "location":"Canberra"
     },
-    "pictureURL" : "images/fry.jpg",
+    "pictureURL" : "images/hosuke_logo.png",
     "welcomeMessage" : "天空被未来浸染",
     "skills" : ["AngularJS", "HTML" ,"CSS", "JavaScript"]
 };
@@ -101,7 +101,7 @@ var education = {
     ],
     "onlineCourses": [
         {
-            "name":"Introduction to Artificial Intelligence (Advanced Track)",
+            "title":"Introduction to Artificial Intelligence (Advanced Track)",
             "school":"Udacity",
             "dates":2011,
             "url":"https://www.udacity.com"
@@ -140,15 +140,16 @@ education.display = function(){
 
     if (education.onlineCourses.length > 0) {
         $("#education").append(HTMLonlineClasses);
+        $("#education").append(HTMLschoolStart);
         education.onlineCourses.forEach(function (course) {
             var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", course.title);
             var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", course.school);
             var formattedOnlineDates = HTMLonlineDates.replace("%data%", course.dates);
             var formattedOnlineURL = HTMLonlineURL.replace("%data%", course.url);
-            $(".online-class-entry:last").append(formattedOnlineSchool);
-            $(".online-class-entry:last").append(formattedOnlineTitle);
-            $(".online-class-entry:last").append(formattedOnlineDates);
-            $(".online-class-entry:last").append(formattedOnlineURL);
+            $(".education-entry:last").append(formattedOnlineSchool);
+            $(".education-entry:last").append(formattedOnlineTitle);
+            $(".education-entry:last").append(formattedOnlineDates);
+            $(".education-entry:last").append(formattedOnlineURL);
         });
     }
 };
@@ -160,13 +161,13 @@ var projects = {
             "title" : "Poke2048",
             "dates" : "2014",
             "description" : "Pokefied version of 2048",
-            "images" : ["images/197x148.gif"]
+            "images" : ["images/poke2048.png"]
         },
         {
             "title" : "Not IE",
             "dates" : "2014",
             "description" : "Do not tap on IE",
-            "images" : ["images/197x148.gif"]
+            "images" : ["images/notie.png"]
         }
     ]
 };
