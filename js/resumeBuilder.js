@@ -10,7 +10,7 @@ var bio = {
     },
     "pictureURL" : "images/hosuke_logo.png",
     "welcomeMessage" : "天空被未来浸染",
-    "skills" : ["AngularJS", "HTML" ,"CSS", "JavaScript"]
+    "skills" : ["AngularJS", "HTML" ,"CSS", "JavaScript", "Python", "Java"]
 };
 
 bio.display = function() {
@@ -107,16 +107,16 @@ var education = {
             "url":"https://www.udacity.com"
         },
         {
-            "title" : "edX 6.00.1x",
+            "title" : "Introduction to Computer Science and Programming Using Python",
             "school" : "edX",
             "dates" : 2014,
-            "url" : "https://www.edx.com"
+            "url" : "https://courses.edx.org/courses/MITx/6.00.1-x/1T2014/info"
         },
         {
-            "title" : "edX 6.00.2x",
+            "title" : "Introduction to Computational Thinking and Data Science",
             "school" : "edX",
             "dates" : 2014,
-            "url" : "https://www.edx.com"
+            "url" : "https://courses.edx.org/courses/MITx/6.00.2x/1T2014/info"
         }
     ]
 };
@@ -130,26 +130,24 @@ education.display = function(){
         var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", school.degree);
         $(".education-entry:last").append(formattedSchoolName);
         $(".education-entry:last a").append(formattedSchoolDegree);
+        $(".education-entry:last").append(formattedSchoolDates);
         school.majors.forEach(function(major) {
             var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", major);
             $(".education-entry:last").append(formattedSchoolMajor);
         });
-        $(".education-entry:last").append(formattedSchoolDates);
         $(".education-entry:last").append(formattedSchoolLocation);
     });
 
     if (education.onlineCourses.length > 0) {
         $("#education").append(HTMLonlineClasses);
-        $("#education").append(HTMLschoolStart);
         education.onlineCourses.forEach(function (course) {
-            var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", course.title);
+            $("#education").append(HTMLschoolStart);
+            var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", course.title).replace("#", course.url);
             var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", course.school);
             var formattedOnlineDates = HTMLonlineDates.replace("%data%", course.dates);
-            var formattedOnlineURL = HTMLonlineURL.replace("%data%", course.url);
-            $(".education-entry:last").append(formattedOnlineSchool);
             $(".education-entry:last").append(formattedOnlineTitle);
+            $(".education-entry:last a").append(formattedOnlineSchool);
             $(".education-entry:last").append(formattedOnlineDates);
-            $(".education-entry:last").append(formattedOnlineURL);
         });
     }
 };
@@ -161,13 +159,13 @@ var projects = {
             "title" : "Poke2048",
             "dates" : "2014",
             "description" : "Pokefied version of 2048",
-            "images" : ["images/poke2048.png"]
+            "images" : ["images/poke2048.jpg"]
         },
         {
             "title" : "Not IE",
             "dates" : "2014",
             "description" : "Do not tap on IE",
-            "images" : ["images/notie.png"]
+            "images" : ["images/notIE.jpg"]
         }
     ]
 };
